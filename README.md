@@ -11,3 +11,10 @@ seleccionamos exportar a sqf.
 pegamos el resultado en un .txt
 colocamos el nombre de la mision en el txt y cambiamos el .txt por .sqf //EJEMPLO MISSION1.SQF
 entregamos el archivo al editor o lo llamamos dentro de una mision con el codigo execVM "ruta del archivo\MISSION1.SQF"
+
+
+PARA COMPLETAR O FALLAR MISIONES SE DEBE COLOCAR ESTO EN EL TRIGGER QUE ACTIVA DICHO EVENTO, EN ACTIVACION
+execVM "Functions\completeMission.sqf";
+
+PARA USAR UNIDADES CIVILES EN LAS MISIONES SE DEBE COLOCAR ESTE CODIGO EN EL INIT(recuadro gris al dar doble click a la unidad) DE LA UNIDAD
+this setVariable ["scriptCiv", true];
