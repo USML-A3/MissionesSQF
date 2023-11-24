@@ -1,6 +1,9 @@
 # MissionesSQF
 repositorio de misiones para exportacion sqf
 
+las exportaciones deben de modificarse y hacerse en el mapa a donde seran importadas
+los ejemplos de exportaciones son todos en el mapa VR de realidad virtual, para ver un ejemplo solo copia la carpeta a tu perfil de arma 3 en Documentos/arma3/otherProfiles/nombre/missions
+abrir realidad virtual y abrir escenario
 
 para exportar a sqf, entramos en el escenario, seleccionamos la opcion de scenario esquina superior izq,
 seleccionamos exportar
