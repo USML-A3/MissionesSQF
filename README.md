@@ -14,7 +14,7 @@ entregamos el archivo al editor o lo llamamos dentro de una mision con el codigo
 
 
 PARA COMPLETAR O FALLAR MISIONES SE DEBE COLOCAR ESTO EN EL TRIGGER QUE ACTIVA DICHO EVENTO, EN ACTIVACION
-execVM "Functions\completeMission.sqf";
+["nombredemision.sqf"] execVM "Functions\completeMission.sqf";
 
 PARA USAR UNIDADES CIVILES EN LAS MISIONES SE DEBE COLOCAR ESTE CODIGO EN EL INIT(recuadro gris al dar doble click a la unidad) DE LA UNIDAD
 this setVariable ["scriptCiv", true];
